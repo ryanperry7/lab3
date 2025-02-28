@@ -210,7 +210,7 @@ body {
   text-align: center;
 }
 
-/* Outer container with white padding */
+/* Outer container  */
 .outer-container {
   padding: 20px;  
   background-color: #ffffff; 
@@ -220,15 +220,19 @@ body {
   min-height: 100vh;
 }
 
-/* Inner container with a gray border */
+/* Inner container  */
 .inner-container {
-  background-color: #ffffff; 
+  background-color: #f0f0f0; 
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   max-width: 600px;
   width: 100%;
-  border: 2px solid #cccccc; 
+  border: 2px solid #cccccc;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Align items to the center */
+  justify-content: center; /* Vertically align content */
 }
 
 /* Heading styles */
@@ -238,13 +242,16 @@ h1 {
   margin-bottom: 20px;
   text-transform: uppercase;
   letter-spacing: 1px;
+  text-align: center; 
 }
 
-/* Paragraph and general text */
+/* Paragraph and general text  */
 p {
   font-size: 1.125em;
   color: #555;
   margin-bottom: 15px;
+  text-align: center; 
+  line-height: 1.6; 
 }
 
 /* Button styles */
@@ -257,10 +264,10 @@ button {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
+  margin-top: 20px; /* Add space above the button */
+  width: 100%; /* Make the button stretch full width of the container */
 }
 
 button:hover {
   background-color: #555;
 }
-
-/* ===== LAYOUT STYLES ====== */
