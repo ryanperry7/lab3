@@ -21,7 +21,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: 'Space Mono', 'Courier New', monospace;
+  font-family: sans-serif; /* 1 */
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
@@ -186,16 +186,17 @@ img, audio, video {
 
 /* ===== BASE STYLES ===== */
 
-/*
-  Major Sixth Modular Scale:
-  http://www.modularscale.com/?22&px&1.667&web&text
-*/
-
+/* Font Stack - Use Space Mono, fallback to Courier New, then monospace */
 html {
   font-size: 1.375em; /* 22px */
   line-height: 1.182em; /* 26px / ~ 120% */
   padding: 1.182em; /* 26px / ~ 120% */
   text-rendering: optimizeLegibility;
+  font-family: 'Space Mono', 'Courier New', Courier, monospace; /* Font stack */
+}
+
+body {
+  font-family: 'Space Mono', 'Courier New', Courier, monospace; /* Apply to the body */
 }
 
 label {
