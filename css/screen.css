@@ -210,7 +210,7 @@ body {
   text-align: center;
 }
 
-/* Outer container  */
+/* Outer container */
 .outer-container {
   padding: 20px;  
   background-color: #ffffff; 
@@ -220,7 +220,7 @@ body {
   min-height: 100vh;
 }
 
-/* Inner container  */
+/* Inner container */
 .inner-container {
   background-color: #f0f0f0; 
   padding: 20px;
@@ -231,8 +231,10 @@ body {
   border: 2px solid #cccccc;
   display: flex;
   flex-direction: column;
-  align-items: center; /* Align items to the center */
-  justify-content: center; /* Vertically align content */
+  align-items: center; 
+  justify-content: center; 
+  word-wrap: break-word; 
+  overflow-wrap: break-word; 
 }
 
 /* Heading styles */
@@ -242,16 +244,18 @@ h1 {
   margin-bottom: 20px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  text-align: center; 
+  text-align: center;
+  word-wrap: break-word; 
 }
 
-/* Paragraph and general text  */
+/* Paragraph and general text */
 p {
   font-size: 1.125em;
   color: #555;
   margin-bottom: 15px;
-  text-align: center; 
-  line-height: 1.6; 
+  text-align: center;
+  line-height: 1.6;
+  word-wrap: break-word; /
 }
 
 /* Button styles */
@@ -264,8 +268,8 @@ button {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
-  margin-top: 20px; /* Add space above the button */
-  width: 100%; /* Make the button stretch full width of the container */
+  margin-top: 20px; 
+  width: 100%; 
 }
 
 button:hover {
