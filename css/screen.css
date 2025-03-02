@@ -241,11 +241,11 @@ body {
 h1 {
   font-size: 2.5em;
   color: #333;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   text-transform: uppercase;
   letter-spacing: 1px;
   text-align: center;
-  word-wrap: break-word; 
+  word-wrap: break-word;
 }
 
 /* Paragraph and general text */
@@ -255,7 +255,7 @@ p {
   margin-bottom: 15px;
   text-align: center;
   line-height: 1.6;
-  word-wrap: break-word; /
+  word-wrap: break-word;
 }
 
 /* Button styles */
